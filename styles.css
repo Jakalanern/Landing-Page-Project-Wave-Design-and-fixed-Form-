@@ -1,0 +1,449 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: visible;
+}
+
+.curve {
+    background-image: linear-gradient(rgb(77, 116, 201), rgb(3, 27, 56));
+    color: #fff;
+}
+
+.curve nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.curve nav h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.curve ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2rem;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.curve ul li {
+    padding: 0rem 1rem;
+}
+
+.curve ul li:nth-of-type(1) {
+    padding-left: .5rem;
+    transition: .25s ease-in-out;
+}
+
+.curve ul li:nth-of-type(1):hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translateY(-1.5px);
+}
+
+.curve ul li:nth-of-type(2) {
+    padding-left: 1rem;
+    transition: .25s ease-in-out;
+}
+
+.curve ul li:nth-of-type(2):hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translateY(-1.5px);
+}
+
+#main-logo {
+    height: 30px;
+    width: 40px;
+    margin-left: 2rem;
+    margin-right: -1.75rem;
+    padding: 0;
+}
+
+#phone-icon {
+    width: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#mail-icon {
+    width: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-box {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.intro-box h4 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.intro-box h2 {
+    font-weight: 600;
+}
+
+#h1-one {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#h1-two {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1.3rem;
+    margin-bottom: 1.25rem;
+}
+
+.curve p {
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curve svg {
+    display: block;
+    width: 100%
+}
+
+form {
+    position: absolute;
+    right: 3%;
+    top: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    box-shadow: -15px 30px 12.5px rgba(0, 0, 0, 0.103);
+    border-top: 4px solid rgb(135, 237, 255);
+}
+
+form h4 {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+
+input {
+    margin: 0;
+}
+
+#first-name {
+    padding: 1rem;
+    margin: 1rem .25rem 0rem .25rem;
+    width: 37.5%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 3px;
+    margin-left: 0;
+}
+
+#last-name {
+    padding: 1rem;
+    margin: 1rem .25rem 0rem .25rem;
+    width: 37.5%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 3px;
+    margin-right: 0;
+}
+
+#email {
+    padding: 1rem;
+    margin: 1rem;
+    width: 75%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 3px;
+}
+
+#first-name::placeholder {
+    color: rgba(128, 128, 128, 0.829);
+}
+
+#last-name::placeholder {
+    color: rgba(128, 128, 128, 0.829);
+}
+
+#email::placeholder {
+    color: rgba(128, 128, 128, 0.829);
+}
+
+form button {
+    padding: .75rem 0 .75rem 0;
+    border-radius: 25px;
+    margin: .5rem;
+    width: 75%;
+    letter-spacing: 1.5px;
+    transition: .25s ease-in-out;
+}
+
+form button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+form button:nth-of-type(1) {
+    background-color: rgb(73, 104, 207);
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+form button:nth-of-type(2) {
+    background-color: transparent;
+    color: rgb(14, 32, 90);
+    border: 2px solid rgb(73, 104, 207);
+    font-size: 1rem;
+}
+
+.name-container {
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.service-head {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.service-head h1 {
+    font-weight: 500;
+    color: rgb(20, 20, 121);
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+
+.service-head h3 {
+    font-weight: 500;
+    color: rgb(20, 20, 121);
+    letter-spacing: 2px;
+    line-height: 2rem;
+    padding-bottom: 0rem;
+    margin-top: .5rem;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+    text-align: center;
+}
+
+.sb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+    text-align: center;
+    padding: 0rem 2rem;
+    height: 325px;
+    width: 33%;
+}
+
+.sb h3 {
+    color: rgb(20, 20, 121);
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.sb p {
+    color: rgb(20, 20, 121);
+    line-height: 1.65rem;
+}
+
+.sb-button {
+    display: block;
+    padding: 1rem 4rem;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: none;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(73, 104, 207);
+    color: white;
+    transition: .25s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.sb img {
+    width: 4rem;
+    max-width: 4rem;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.sb-button:hover {
+    background-color: rgb(56, 80, 158);
+    cursor: pointer;
+    transform: translateY(-1.5px);
+}
+
+.social-logo {
+    width: 45px;
+    height: 45px;
+    margin: .25em .5em 0 .5em;
+    transition: transform .25s;
+}
+
+.social-logo:hover {
+    cursor: pointer;
+    transform: translateY(-4px)
+}
+
+.company {
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    margin-top: 1em;
+    color: rgb(20, 20, 121);
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em 1em 1em 1em;
+    border-top: 2px solid rgba(0, 0, 0, 0.253);
+    text-align: center;
+    margin-top: 4rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#scroll-button {
+    padding: .5em;
+    padding: .5em .75em .5em .75em;
+    margin-top: 1em;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 20px;
+    transition: transform .25s;
+}
+
+#scroll-button:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+    transform: translateY(-2px)
+}
+
+@media (max-width: 924px) {
+    #h1-two {
+        margin-top: -.5rem;
+    }
+}
+
+@media (max-width: 815px) {
+
+    /* Form box and intro box start to overlap */
+    .intro-box {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        display: none;
+        top: initial;
+        right: initial;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .sb {
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width: 755px) {
+    .service-box {
+        flex-direction: column;
+    }
+
+    .sb {
+        border-bottom: 1px solid rgba(65, 82, 180, 0.336);
+    }
+
+    .sb:last-child {
+        border-bottom: none;
+    }
+
+    .sb-button {
+        bottom: -625px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 660px) {
+    /* Fix nav overlap */
+
+    .curve nav h4 {
+        margin-left: 0;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    #main-logo {
+        margin: 0 auto;
+        margin-right: 0;
+    }
+
+    .curve ul {
+        display: none;
+    }
+
+    /* Make burger instead? */
+
+    /* -------- */
+}
