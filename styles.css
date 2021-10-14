@@ -411,10 +411,16 @@ a {
     .sb {
         padding: 2rem;
     }
+
+    #h1-two {
+        margin-top: .5rem;
+    }
+
 }
 
 
 @media (max-width: 755px) {
+
     .service-box {
         flex-direction: column;
     }
