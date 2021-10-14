@@ -112,7 +112,7 @@ html {
 }
 
 #h1-two {
-    font-size: 4rem;
+    font-size: 350%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -1.3rem;
@@ -240,6 +240,7 @@ form button:nth-of-type(2) {
 .service-head {
     text-align: center;
     margin-top: 3em;
+    margin: 3em 2rem 0em 2rem;
 }
 
 .service-head h1 {
@@ -250,12 +251,12 @@ form button:nth-of-type(2) {
 }
 
 .service-head h3 {
-    font-weight: 500;
-    color: rgb(20, 20, 121);
-    letter-spacing: 2px;
+    font-weight: 400;
+    color: rgba(20, 20, 121, 0.753);
+    letter-spacing: 1px;
     line-height: 2rem;
     padding-bottom: 0rem;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 
 .service-box {
@@ -275,8 +276,7 @@ form button:nth-of-type(2) {
     flex-wrap: no-wrap;
     text-align: center;
     padding: 0rem 2rem;
-    height: 325px;
-    width: 33%;
+    width: clamp(75%, 25%, 25%);
 }
 
 .sb h3 {
@@ -304,11 +304,11 @@ form button:nth-of-type(2) {
     color: white;
     transition: .25s ease-in-out;
     letter-spacing: 2px;
+    margin-top: 1rem;
 }
 
 .sb img {
     width: 4rem;
-    max-width: 4rem;
     height: auto;
     margin-bottom: 1em;
 }
@@ -390,6 +390,14 @@ a {
         justify-content: center;
     }
 
+    .intro-box h2 {
+        padding: 0 1rem;
+    }
+
+    .intro-box h4 {
+        margin-bottom: 2rem;
+    }
+
     form {
         display: none;
         top: initial;
@@ -446,4 +454,11 @@ a {
     /* Make burger instead? */
 
     /* -------- */
+}
+
+@media (max-width: 40em) {
+
+    /* Fix nav overlap */
+
+
 }
